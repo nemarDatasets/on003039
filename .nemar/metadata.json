@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on003039",
-  "source": "openneuro",
-  "source_id": "ds003039",
+  "pipeline_stage": "enriched",
   "title": "free walking study",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Nadine Jacobsen": {},
     "Sarah Blum": {},
@@ -11,21 +11,81 @@
     "Stefan Debener": {},
     "Joanna Scanlon": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003039.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1111/ejn.14965",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003039",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003039",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003039",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v2.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "Mobile EEG dataset from 19 participants performing outdoor walking tasks along two different routes. Participants completed each route twice, with one condition involving self-paced button pressing. This dataset characterizes gait-related artifacts in mobile EEG recordings during naturalistic locomotion.",
+  "methods_description": "Participants walked two different outdoor routes twice each. One walking condition included self-paced button pressing. Mobile EEG was recorded during all walking trials.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "gait"
+    },
+    {
+      "term": "mobile EEG"
+    },
+    {
+      "term": "artifacts"
+    },
+    {
+      "term": "walking"
+    },
+    {
+      "term": "outdoor locomotion"
+    },
+    {
+      "term": "motor task"
+    },
+    {
+      "term": "naturalistic"
+    },
+    {
+      "term": "button pressing"
+    },
+    {
+      "term": "motor response"
+    }
+  ],
+  "source_hash": "266345c05dc774c43b68540b56d2271aaab33caa93afb49907fb795387cbf817"
 }
