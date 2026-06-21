@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "free walking study",
+  "description": "A mobile EEG study examining gait-related artifacts during naturalistic walking behavior. Nineteen participants completed outdoor walking tasks along two different routes, with repeated trials including a self-paced button-pressing condition. This dataset provides insights into the challenges of acquiring high-quality EEG recordings in real-world, ambulatory settings.",
+  "methods_description": "Mobile EEG recordings were collected from 19 participants during free walking outdoors. Subjects walked two different routes, each traversed twice—once during normal walking and once while performing self-paced button presses. Detailed methodological information is provided in the associated publication.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,48 @@
     "Stefan Debener": {},
     "Joanna Scanlon": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003039.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "mobile EEG"
+    },
+    {
+      "term": "gait"
+    },
+    {
+      "term": "artifact"
+    },
+    {
+      "term": "ambulatory monitoring"
+    },
+    {
+      "term": "outdoor walking"
+    },
+    {
+      "term": "naturalistic walking"
+    },
+    {
+      "term": "motion artifact"
+    },
+    {
+      "term": "dual-task"
+    },
+    {
+      "term": "button-pressing"
+    },
+    {
+      "term": "motor task"
+    },
+    {
+      "term": "real-world EEG"
+    },
+    {
+      "term": "wearable EEG"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1111/ejn.14965",
       "identifier_type": "DOI",
@@ -36,14 +74,19 @@
       "identifier": "10.18112/openneuro.ds003039",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003039.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "7.0 GB (36 files)"
   ],
   "formats": [
     ".fdt",
@@ -51,41 +94,8 @@
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "Mobile EEG dataset from 19 participants performing outdoor walking tasks along two different routes. Participants completed each route twice, with one condition involving self-paced button pressing. This dataset characterizes gait-related artifacts in mobile EEG recordings during naturalistic locomotion.",
-  "methods_description": "Participants walked two different outdoor routes twice each. One walking condition included self-paced button pressing. Mobile EEG was recorded during all walking trials.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "gait"
-    },
-    {
-      "term": "mobile EEG"
-    },
-    {
-      "term": "artifacts"
-    },
-    {
-      "term": "walking"
-    },
-    {
-      "term": "outdoor locomotion"
-    },
-    {
-      "term": "motor task"
-    },
-    {
-      "term": "naturalistic"
-    },
-    {
-      "term": "button pressing"
-    },
-    {
-      "term": "motor response"
-    }
-  ],
-  "source_hash": "266345c05dc774c43b68540b56d2271aaab33caa93afb49907fb795387cbf817"
+  "source_hash": "728f610714a9a223385b56effe38c533483f0a9e02d3151af26e06993db5cb51"
 }
