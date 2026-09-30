@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "free walking study",
-  "description": "A mobile EEG study examining gait-related artifacts during naturalistic walking behavior. Nineteen participants completed outdoor walking tasks along two different routes, with repeated trials including a self-paced button-pressing condition. This dataset provides empirical characterization of movement-related noise in mobile neuroimaging recordings during unconstrained locomotion. This dataset is sourced from OpenNeuro (ds003039.v1.0.2) and has been republished on NEMAR.",
-  "methods_description": "Mobile EEG recordings were collected from 19 participants during free walking outdoors. Subjects walked two different routes, each traversed twice—once with self-paced button pressing and once without. Detailed methodological information is provided in the associated publication (Jacobsen et al., 2020). This dataset originates from OpenNeuro dataset ds003039.v1.0.2.",
+  "description": "Mobile EEG dataset from 19 participants who walked two different outdoor routes, each twice, once while pressing buttons in a self-paced manner. The recordings were collected to characterize gait-related artifacts in mobile EEG during free walking.",
+  "methods_description": "Participants walked two outdoor routes, and each route was walked twice. One of the two walks included self-paced button pressing. Full methodological details are given in the associated article.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,46 +18,29 @@
       "term": "EEG"
     },
     {
+      "term": "mobile EEG"
+    },
+    {
+      "term": "walking"
+    },
+    {
       "term": "gait"
     },
     {
       "term": "motion artifacts"
     },
     {
-      "term": "mobile neuroimaging"
-    },
-    {
-      "term": "outdoor walking"
-    },
-    {
-      "term": "ambulatory recording"
-    },
-    {
-      "term": "locomotion"
-    },
-    {
-      "term": "artifact characterization"
-    },
-    {
-      "term": "naturalistic behavior"
-    },
-    {
-      "term": "motor task"
+      "term": "outdoor"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1111/ejn.14965",
       "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on003039",
-      "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003039",
+      "identifier": "https://github.com/nemarDatasets/on003039",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -70,6 +53,11 @@
       "identifier": "10.18112/openneuro.ds003039.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003039",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -77,7 +65,7 @@
     "eeg"
   ],
   "sizes": [
-    "7.0 GB (36 files)"
+    "6.55 GB (36 files)"
   ],
   "formats": [
     ".fdt",
